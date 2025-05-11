@@ -5,8 +5,9 @@ from langchain.llms import Cohere
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 # Load environment variables from .env file
-load_dotenv(dotenv_path=r"C:\Users\swapn\Kaggle Practice\.env")
+#load_dotenv(dotenv_path=r"C:\Users\swapn\Kaggle Practice\.env")
 
+load_dotenv()
 # Get the key from the environment
 cohere_api_key = os.getenv("COHERE_API_KEY")
 
