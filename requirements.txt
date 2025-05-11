@@ -1,5 +1,5 @@
 pandas
-numpy
 streamit
 langchain-community
 langchain
+cohere
