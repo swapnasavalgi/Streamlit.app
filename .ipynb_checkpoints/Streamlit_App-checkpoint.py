@@ -2,7 +2,6 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_cohere import CohereRagRetriever, ChatCohere
-from langchain.retrievers import WikipediaRetriever
 from langchain.llms import Cohere
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
